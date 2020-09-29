@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBot", "PhoneBot\PhoneBot.csproj", "{07E5C32E-B5AE-4F06-ABA1-A9069EAE4E38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07E5C32E-B5AE-4F06-ABA1-A9069EAE4E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E5C32E-B5AE-4F06-ABA1-A9069EAE4E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E5C32E-B5AE-4F06-ABA1-A9069EAE4E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E5C32E-B5AE-4F06-ABA1-A9069EAE4E38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10489BDC-0745-4A2E-8454-5549C8FD8EAE}
+	EndGlobalSection
+EndGlobal

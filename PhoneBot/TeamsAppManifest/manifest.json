@@ -1,0 +1,66 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.7/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.7",
+  "version": "1.0.0",
+  "id": "<<YOUR-MICROSOFT-APP-ID>>",
+  "packageName": "PhoneButton",
+  "developer": {
+    "name": "Rubezh",
+    "websiteUrl": "<<YOUR-WEBSITE-URL>>",
+    "privacyUrl": "<<YOUR-PRIVACY-URL>>",
+    "termsOfUseUrl": "<<YOUR-TERM-OF-USE-URL>>"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Phone bot",
+    "full": "Call on the phone by button"
+  },
+  "description": {
+    "short": "Call up",
+    "full": "Call on the phone by button in the chat"
+  },
+  "bots": [
+    {
+      "botId": "<<YOUR-BOT-ID>>",
+      "scopes": [
+        "groupchat"
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "composeExtensions": [
+    {
+      "botId": "<<YOUR-BOT-ID>>",
+      "canUpdateConfiguration": false,
+      "commands": [
+        {
+          "id": "CallUp",
+          "type": "action",
+          "title": "Call up",
+          "description": "",
+          "initialRun": false,
+          "fetchTask": true,
+          "context": [
+            "compose"
+          ],
+          "parameters": [
+            {
+              "name": "param",
+              "title": "param",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": []
+}
